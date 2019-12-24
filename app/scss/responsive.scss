@@ -1,0 +1,106 @@
+/*  <!-- RESPONSIVE
+============================================ --> */
+// здесь мы пишем медиа запросы 
+
+// width start 
+$w1200: 1200px;
+$w992: 992px;
+$w768: 768px;
+$w576: 576px;
+$w480: 480px;
+// width end 
+
+
+// =============================================================================
+    
+
+/* <!-- minw start
+	============================================ --> */
+
+
+	@media only screen and (min-width:$w480){
+		.text{
+			display: block;
+		}
+	}/* <!-- min-width: #{$w480} --> */
+
+	
+	@media only screen and (min-width:$w576){
+		.text{
+			display: block;
+		}
+	}/* <!-- min-width: #{$w576} --> */
+
+
+	@media only screen and (min-width:$w768){
+		.text{
+			display: block;
+		}
+	}/* <!-- min-width: #{$w768} --> */
+
+
+	@media only screen and (min-width:$w992){
+		.text{
+			display: block;
+		}
+	}/* <!-- min-width: #{$w992} --> */
+	
+	
+	@media only screen and (min-width:$w1200){
+		.text{
+			display: block;
+		}
+
+	}/* <!-- min-width: #{$w1200} --> */
+
+
+/* <!-- minw end 
+	============================================ --> */
+
+
+
+
+/* <!-- maxw start
+	============================================ --> */
+
+
+	@media only screen and (max-width:$w1200 - 1px){
+		.text{
+			display: block;
+		}
+	}/* <!-- max-width: #{$w1200 - 1px} --> */
+
+
+	@media only screen and (max-width:$w992 - 1px) {
+		.text{
+			display: block;
+		}
+	}/* <!-- max-width: #{$w992 - 1px} --> */
+
+
+	@media only screen and (max-width:$w768 - 1px) {
+		.text{
+			display: block;
+		}
+	}/* <!-- max-width: #{$w768 - 1px} --> */
+	
+
+	@media only screen and (max-width:$w576 - 1px) {
+		.text{
+			display: block;
+		}
+	}/* <!-- max-width: #{$w576 - 1px} --> */
+
+
+	@media only screen and (max-width:$w480 - 1px) {
+		.text{
+			display: block;
+		}
+	}/* <!-- max-width: #{$w480 - 1px} --> */
+
+ 
+/* <!-- maxw end 
+	============================================ --> */
+
+
+

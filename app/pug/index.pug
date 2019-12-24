@@ -1,0 +1,76 @@
+extends ../pug/templates/main
+
+block vars
+	- var title = "Главная страница";
+	- var headerClasses = ['header1'];
+	- var footerClasses = ['footer1'];
+
+//- block title
+//- 	| Главная страница
+
+
+//- Content Start     ============================================ 
+
+
+block content
+
+	// Content Start     ============================================ 
+
+	main#content
+
+		section.breadcrumbs_container
+			.container
+				.row
+					.col-xs-12
+						ul.breadcrumbs.clearfix
+							li.breadcrumbs_it(data-bread-arr!="&#8250;")
+								a(href="javascript:;" title="Перейти на главную страницу")
+									span.breadcrumbs_current Главная
+							li.breadcrumbs_it(data-bread-arr!="&#8250;")
+								a(href="javascript:;" title="Перейти на страницу О нас")
+									span.breadcrumbs_current О нас
+							li.breadcrumbs_it(data-bread-arr!="&#8250;")
+								span.breadcrumbs_current О нас
+								
+		// - - - - - - - - - - - - - something_container - - - - - - - - - - - - - - - - 
+
+		section(class="something_container")
+			div.container
+				a( href="#" data-popup="#box-modal") Popup
+				
+				div.box
+					div.box-item.item-1.my_div 1  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia id, obcaecati nostrum sequi quas recusandae ratione suscipit praesentium voluptates, quisquam repellat et? Aperiam perferendis eum quod quo praesentium, quisquam rem!
+					a.btn_black.btn_size 2  Lorem ipsum dolor sit amet
+					div.box-item.item-2.btn 2  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, corrupti, assumenda. Debitis ut perferendis sapiente id ad eligendi iure dolore consequatur ducimus delectus! Illo facilis odit, a repudiandae hic nam.
+					div.box-item.item-2.notice 2  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, corrupti, assumenda. Debitis ut perferendis sapiente id ad eligendi iure dolore consequatur ducimus delectus! Illo facilis odit, a repudiandae hic nam.
+					div.box-item.item-3 3  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia id, obcaecati nostrum sequi quas recusandae ratione suscipit praesentium voluptates, quisquam repellat et? Aperiam perferendis eum quod quo praesentium, quisquam rem!
+					div.box-item.item-3 3  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia id, obcaecati nostrum sequi quas recusandae ratione suscipit praesentium voluptates, quisquam repellat et? Aperiam perferendis eum quod quo praesentium, quisquam rem!
+					
+
+
+		// - - - - - - - - - - - - - End of something_container - - - - - - - - - - - - - - - - 
+
+	// Content End       ============================================ 
+
+
+//- Content End       ============================================ 
+
+
+
+//- Popup Start     ============================================ 
+
+
+block popup
+
+	// Popup Start     ============================================ 
+
+	div(class="d_none")
+		
+		div(class="arcticmodal_container_box" id="box-modal")
+			div(class="arcticmodal-close") &times; 
+			p Поздравляем! Заявка отправлена
+
+	// Popup End       ============================================ 
+
+
+//- Popup End       ============================================ 

@@ -1,0 +1,80 @@
+/*  <!-- RESPONSIVE
+============================================ --> */
+/* <!-- minw start
+	============================================ --> */
+@media only screen and (min-width: 480px) {
+  .text {
+    display: block;
+  }
+}
+
+/* <!-- min-width: 480px --> */
+@media only screen and (min-width: 576px) {
+  .text {
+    display: block;
+  }
+}
+
+/* <!-- min-width: 576px --> */
+@media only screen and (min-width: 768px) {
+  .text {
+    display: block;
+  }
+}
+
+/* <!-- min-width: 768px --> */
+@media only screen and (min-width: 992px) {
+  .text {
+    display: block;
+  }
+}
+
+/* <!-- min-width: 992px --> */
+@media only screen and (min-width: 1200px) {
+  .text {
+    display: block;
+  }
+}
+
+/* <!-- min-width: 1200px --> */
+/* <!-- minw end 
+	============================================ --> */
+/* <!-- maxw start
+	============================================ --> */
+@media only screen and (max-width: 1199px) {
+  .text {
+    display: block;
+  }
+}
+
+/* <!-- max-width: 1199px --> */
+@media only screen and (max-width: 991px) {
+  .text {
+    display: block;
+  }
+}
+
+/* <!-- max-width: 991px --> */
+@media only screen and (max-width: 767px) {
+  .text {
+    display: block;
+  }
+}
+
+/* <!-- max-width: 767px --> */
+@media only screen and (max-width: 575px) {
+  .text {
+    display: block;
+  }
+}
+
+/* <!-- max-width: 575px --> */
+@media only screen and (max-width: 479px) {
+  .text {
+    display: block;
+  }
+}
+
+/* <!-- max-width: 479px --> */
+/* <!-- maxw end 
+	============================================ --> */
